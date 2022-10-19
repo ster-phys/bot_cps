@@ -1,0 +1,377 @@
+{
+    "十文字アタリ": {
+        "name": "十文字 中",
+        "ultname": "",
+        "haname": ""
+    },
+    "ジャスティス ハンコック": {
+        "name": "正義 漢考克",
+        "ultname": "",
+        "haname": ""
+    },
+    "リリカ": {
+        "name": "莉莉卡",
+        "ultname": "",
+        "haname": ""
+    },
+    "双挽乃保": {
+        "name": "雙挽 乃保",
+        "ultname": "",
+        "haname": ""
+    },
+    "桜華忠臣": {
+        "name": "櫻華 忠臣",
+        "ultname": "",
+        "haname": ""
+    },
+    "ジャンヌ ダルク": {
+        "name": "聖女貞德",
+        "ultname": "",
+        "haname": ""
+    },
+    "マルコス'55": {
+        "name": "馬爾克斯'55",
+        "ultname": "",
+        "haname": ""
+    },
+    "マルコス'55(1凸)": {
+        "name": "馬爾克斯'55(1凸)",
+        "ultname": "",
+        "haname": ""
+    },
+    "マルコス'55(2凸)": {
+        "name": "馬爾克斯'55(2凸)",
+        "ultname": "",
+        "haname": ""
+    },
+    "マルコス'55(3凸)": {
+        "name": "馬爾克斯'55(3凸)",
+        "ultname": "",
+        "haname": ""
+    },
+    "ルチアーノ": {
+        "name": "盧西亞諾",
+        "ultname": "",
+        "haname": ""
+    },
+    "Voidoll": {
+        "name": "Voidoll",
+        "ultname": "",
+        "haname": ""
+    },
+    "深川まとい": {
+        "name": "深川 纏",
+        "ultname": "",
+        "haname": ""
+    },
+    "ソル=バッドガイ": {
+        "name": "索爾‧巴得凱",
+        "ultname": "",
+        "haname": ""
+    },
+    "ディズィー": {
+        "name": "蒂姬",
+        "ultname": "",
+        "haname": ""
+    },
+    "グスタフ ハイドリヒ": {
+        "name": "古斯塔夫 海德里希",
+        "ultname": "",
+        "haname": ""
+    },
+    "ニコラ テスラ": {
+        "name": "尼古拉 特斯拉",
+        "ultname": "",
+        "haname": ""
+    },
+    "ミク": {
+        "name": "初音 未來",
+        "ultname": "",
+        "haname": ""
+    },
+    "ヴィオレッタ ノワール": {
+        "name": "維歐蕾塔 諾瓦",
+        "ultname": "",
+        "haname": ""
+    },
+    "コクリコット ブランシュ": {
+        "name": "可可莉柯特 布蘭修",
+        "ultname": "",
+        "haname": ""
+    },
+    "リュウ": {
+        "name": "隆",
+        "ultname": "",
+        "haname": ""
+    },
+    "春麗": {
+        "name": "春麗",
+        "ultname": "",
+        "haname": ""
+    },
+    "マリア=S=レオンブルク": {
+        "name": "瑪麗亞=S=雷歐布魯克",
+        "ultname": "",
+        "haname": ""
+    },
+    "アダム=ユーリエフ": {
+        "name": "亞當=尤利耶夫",
+        "ultname": "",
+        "haname": ""
+    },
+    "サーティーン(gun)": {
+        "name": "13(gun)",
+        "ultname": "",
+        "haname": ""
+    },
+    "サーティーン(atk)": {
+        "name": "13(atk)",
+        "ultname": "",
+        "haname": ""
+    },
+    "かけだし勇者": {
+        "name": "新手勇者",
+        "ultname": "",
+        "haname": ""
+    },
+    "エミリア": {
+        "name": "愛蜜莉雅",
+        "ultname": "",
+        "haname": ""
+    },
+    "レム": {
+        "name": "雷姆",
+        "ultname": "",
+        "haname": ""
+    },
+    "カイ=キスク": {
+        "name": "凱‧奇斯克",
+        "ultname": "",
+        "haname": ""
+    },
+    "メグメグ": {
+        "name": "妹格妹格",
+        "ultname": "",
+        "haname": ""
+    },
+    "リン": {
+        "name": "鏡音 鈴",
+        "ultname": "",
+        "haname": ""
+    },
+    "レン": {
+        "name": "鏡音 連",
+        "ultname": "",
+        "haname": ""
+    },
+    "イスタカ": {
+        "name": "伊斯打卡",
+        "ultname": "",
+        "haname": ""
+    },
+    "ザック&レイチェル": {
+        "name": "札克&瑞吉兒",
+        "ultname": "",
+        "haname": ""
+    },
+    "輝龍院きらら": {
+        "name": "輝龍院奇拉拉",
+        "ultname": "",
+        "haname": ""
+    },
+    "モノクマ": {
+        "name": "黑白熊",
+        "ultname": "",
+        "haname": ""
+    },
+    "ポロロッチョ": {
+        "name": "維納斯 普羅羅裘",
+        "ultname": "",
+        "haname": ""
+    },
+    "アクア": {
+        "name": "阿克婭",
+        "ultname": "",
+        "haname": ""
+    },
+    "めぐみん": {
+        "name": "惠惠",
+        "ultname": "",
+        "haname": ""
+    },
+    "ソーン=ユーリエフ": {
+        "name": "索恩=尤利耶夫",
+        "ultname": "",
+        "haname": ""
+    },
+    "リヴァイ": {
+        "name": "里維",
+        "ultname": "",
+        "haname": ""
+    },
+    "デビルミント鬼龍 デルミン": {
+        "name": "惡魔薄荷鬼龍 黛露敏",
+        "ultname": "",
+        "haname": ""
+    },
+    "トマス": {
+        "name": "湯瑪士",
+        "ultname": "",
+        "haname": ""
+    },
+    "猫宮ひなた(AR)": {
+        "name": "貓宮日向(AR)",
+        "ultname": "",
+        "haname": ""
+    },
+    "猫宮ひなた(SG)": {
+        "name": "貓宮日向(SG)",
+        "ultname": "",
+        "haname": ""
+    },
+    "岡部 倫太郎": {
+        "name": "岡部 倫太郎",
+        "ultname": "",
+        "haname": ""
+    },
+    "零夜": {
+        "name": "零夜",
+        "ultname": "",
+        "haname": ""
+    },
+    "セイバーオルタ": {
+        "name": "Saber Alter",
+        "ultname": "",
+        "haname": ""
+    },
+    "ギルガメッシュ": {
+        "name": "吉爾伽美什",
+        "ultname": "",
+        "haname": ""
+    },
+    "ルルカ": {
+        "name": "露露卡",
+        "ultname": "",
+        "haname": ""
+    },
+    "ピエール77世": {
+        "name": "皮埃爾77世",
+        "ultname": "",
+        "haname": ""
+    },
+    "ピエール77世(HS)": {
+        "name": "皮埃爾77世(HS)",
+        "ultname": "",
+        "haname": ""
+    },
+    "佐藤四郎兵衛忠信": {
+        "name": "佐藤四郎兵衛忠信",
+        "ultname": "",
+        "haname": ""
+    },
+    "アイズ・ヴァレンシュタイン": {
+        "name": "艾絲 華倫斯坦",
+        "ultname": "",
+        "haname": ""
+    },
+    "狐ヶ咲 甘色": {
+        "name": "狐笑 甘色",
+        "ultname": "",
+        "haname": ""
+    },
+    "ノクティス": {
+        "name": "諾克提斯",
+        "ultname": "",
+        "haname": ""
+    },
+    "ニーズヘッグ": {
+        "name": "HM-WA100 尼德霍格",
+        "ultname": "",
+        "haname": ""
+    },
+    "中島 敦": {
+        "name": "中島 敦",
+        "ultname": "",
+        "haname": ""
+    },
+    "芥川 龍之介": {
+        "name": "芥川 龍之介",
+        "ultname": "",
+        "haname": ""
+    },
+    "ゲームバズーカガール": {
+        "name": "遊戲火箭筒女孩",
+        "ultname": "",
+        "haname": ""
+    },
+    "ライザリン・シュタウト": {
+        "name": "萊莎琳‧斯托特",
+        "ultname": "",
+        "haname": ""
+    },
+    "青春 アリス": {
+        "name": "青春 愛麗絲",
+        "ultname": "",
+        "haname": ""
+    },
+    "ジョーカー": {
+        "name": "Joker",
+        "ultname": "",
+        "haname": ""
+    },
+    "イグニス=ウィル=ウィスプ": {
+        "name": "伊格尼斯=威爾＝威斯普",
+        "ultname": "",
+        "haname": ""
+    },
+    "アインズ・ウール・ゴウン": {
+        "name": "安茲‧烏爾‧恭",
+        "ultname": "",
+        "haname": ""
+    },
+    "糸廻 輪廻": {
+        "name": "系迴 輪迴",
+        "ultname": "",
+        "haname": ""
+    },
+    "キリト": {
+        "name": "桐人",
+        "ultname": "",
+        "haname": ""
+    },
+    "アスナ": {
+        "name": "亞絲娜",
+        "ultname": "",
+        "haname": ""
+    },
+    "Bugdoll": {
+        "name": "Bugdoll",
+        "ultname": "",
+        "haname": ""
+    },
+    "ステリア・ララ・シルワ": {
+        "name": "斯特利亞・拉拉・席爾瓦",
+        "ultname": "",
+        "haname": ""
+    },
+    "ラム": {
+        "name": "拉姆",
+        "ultname": "",
+        "haname": ""
+    },
+    "2B": {
+        "name": "2B",
+        "ultname": "",
+        "haname": ""
+    },
+    "ラヴィ・シュシュマルシュ": {
+        "name": "拉薇・秀秀瑪爾榭",
+        "ultname": "",
+        "haname": ""
+    },
+    "リムル=テンペスト": {
+        "name": "利姆路・坦派斯特",
+        "ultname": "",
+        "haname": ""
+    }
+}

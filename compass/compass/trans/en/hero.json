@@ -1,0 +1,377 @@
+{
+    "十文字アタリ": {
+        "name": "Juumonji Atari",
+        "ultname": "",
+        "haname": ""
+    },
+    "ジャスティス ハンコック": {
+        "name": "Justice Hancock",
+        "ultname": "",
+        "haname": ""
+    },
+    "リリカ": {
+        "name": "Ririka",
+        "ultname": "",
+        "haname": ""
+    },
+    "双挽乃保": {
+        "name": "Soubiki Noho",
+        "ultname": "",
+        "haname": ""
+    },
+    "桜華忠臣": {
+        "name": "Ouka Tadaomi",
+        "ultname": "",
+        "haname": ""
+    },
+    "ジャンヌ ダルク": {
+        "name": "Jeanne d'Arc",
+        "ultname": "",
+        "haname": ""
+    },
+    "マルコス'55": {
+        "name": "Marcos'55",
+        "ultname": "",
+        "haname": ""
+    },
+    "マルコス'55(1凸)": {
+        "name": "Marcos'55(1S)",
+        "ultname": "",
+        "haname": ""
+    },
+    "マルコス'55(2凸)": {
+        "name": "Marcos'55(2S)",
+        "ultname": "",
+        "haname": ""
+    },
+    "マルコス'55(3凸)": {
+        "name": "Marcos'55(3S)",
+        "ultname": "",
+        "haname": ""
+    },
+    "ルチアーノ": {
+        "name": "Luciano",
+        "ultname": "",
+        "haname": ""
+    },
+    "Voidoll": {
+        "name": "Voidoll",
+        "ultname": "",
+        "haname": ""
+    },
+    "深川まとい": {
+        "name": "Fukagawa Matoi",
+        "ultname": "",
+        "haname": ""
+    },
+    "ソル=バッドガイ": {
+        "name": "Sol Badguy",
+        "ultname": "",
+        "haname": ""
+    },
+    "ディズィー": {
+        "name": "Dizzy",
+        "ultname": "",
+        "haname": ""
+    },
+    "グスタフ ハイドリヒ": {
+        "name": "Gustav Heydrich",
+        "ultname": "",
+        "haname": ""
+    },
+    "ニコラ テスラ": {
+        "name": "Nikola Tesla",
+        "ultname": "",
+        "haname": ""
+    },
+    "ミク": {
+        "name": "Hatsune Miku",
+        "ultname": "",
+        "haname": ""
+    },
+    "ヴィオレッタ ノワール": {
+        "name": "Violetta Noire",
+        "ultname": "",
+        "haname": ""
+    },
+    "コクリコット ブランシュ": {
+        "name": "Coquelicot Blanche",
+        "ultname": "",
+        "haname": ""
+    },
+    "リュウ": {
+        "name": "Ryu",
+        "ultname": "",
+        "haname": ""
+    },
+    "春麗": {
+        "name": "Chun-Li",
+        "ultname": "",
+        "haname": ""
+    },
+    "マリア=S=レオンブルク": {
+        "name": "Maria =S= Leonburg",
+        "ultname": "",
+        "haname": ""
+    },
+    "アダム=ユーリエフ": {
+        "name": "Adam Yuriev",
+        "ultname": "",
+        "haname": ""
+    },
+    "サーティーン(gun)": {
+        "name": "13 (Thirteen) (gun)",
+        "ultname": "",
+        "haname": ""
+    },
+    "サーティーン(atk)": {
+        "name": "13 (Thirteen) (atk)",
+        "ultname": "",
+        "haname": ""
+    },
+    "かけだし勇者": {
+        "name": "Heroic Dasher",
+        "ultname": "",
+        "haname": ""
+    },
+    "エミリア": {
+        "name": "Emilia",
+        "ultname": "",
+        "haname": ""
+    },
+    "レム": {
+        "name": "Rem",
+        "ultname": "",
+        "haname": ""
+    },
+    "カイ=キスク": {
+        "name": "Ky Kiske",
+        "ultname": "",
+        "haname": ""
+    },
+    "メグメグ": {
+        "name": "Meg Meg",
+        "ultname": "",
+        "haname": ""
+    },
+    "リン": {
+        "name": "Kagamine Rin",
+        "ultname": "",
+        "haname": ""
+    },
+    "レン": {
+        "name": "Kagamine Len",
+        "ultname": "",
+        "haname": ""
+    },
+    "イスタカ": {
+        "name": "Istaqa",
+        "ultname": "",
+        "haname": ""
+    },
+    "ザック&レイチェル": {
+        "name": "Zack and Rachel",
+        "ultname": "",
+        "haname": ""
+    },
+    "輝龍院きらら": {
+        "name": "Kiryuin Kirara",
+        "ultname": "",
+        "haname": ""
+    },
+    "モノクマ": {
+        "name": "Monokuma",
+        "ultname": "",
+        "haname": ""
+    },
+    "ポロロッチョ": {
+        "name": "Venus Pororotcho",
+        "ultname": "",
+        "haname": ""
+    },
+    "アクア": {
+        "name": "Aqua",
+        "ultname": "",
+        "haname": ""
+    },
+    "めぐみん": {
+        "name": "Megumin",
+        "ultname": "",
+        "haname": ""
+    },
+    "ソーン=ユーリエフ": {
+        "name": "Son Yuriev",
+        "ultname": "",
+        "haname": ""
+    },
+    "リヴァイ": {
+        "name": "Levi",
+        "ultname": "",
+        "haname": ""
+    },
+    "デビルミント鬼龍 デルミン": {
+        "name": "Devilmintkiryu Delmin",
+        "ultname": "",
+        "haname": ""
+    },
+    "トマス": {
+        "name": "Thomas",
+        "ultname": "",
+        "haname": ""
+    },
+    "猫宮ひなた(AR)": {
+        "name": "Nekomiya Hinata(AR)",
+        "ultname": "",
+        "haname": ""
+    },
+    "猫宮ひなた(SG)": {
+        "name": "Nekomiya Hinata(SG)",
+        "ultname": "",
+        "haname": ""
+    },
+    "岡部 倫太郎": {
+        "name": "Okabe Rintaro",
+        "ultname": "",
+        "haname": ""
+    },
+    "零夜": {
+        "name": "Reiya",
+        "ultname": "",
+        "haname": ""
+    },
+    "セイバーオルタ": {
+        "name": "Saber Alter",
+        "ultname": "",
+        "haname": ""
+    },
+    "ギルガメッシュ": {
+        "name": "Gilgamesh",
+        "ultname": "",
+        "haname": ""
+    },
+    "ルルカ": {
+        "name": "Ruruka",
+        "ultname": "",
+        "haname": ""
+    },
+    "ピエール77世": {
+        "name": "Pierre the 77th",
+        "ultname": "",
+        "haname": ""
+    },
+    "ピエール77世(HS)": {
+        "name": "Pierre the 77th(HS)",
+        "ultname": "",
+        "haname": ""
+    },
+    "佐藤四郎兵衛忠信": {
+        "name": "Satō Shirōbyōe Tadanobu",
+        "ultname": "",
+        "haname": ""
+    },
+    "アイズ・ヴァレンシュタイン": {
+        "name": "Ais Wallenstein",
+        "ultname": "",
+        "haname": ""
+    },
+    "狐ヶ咲 甘色": {
+        "name": "Kitsunegasaki Amairo",
+        "ultname": "",
+        "haname": ""
+    },
+    "ノクティス": {
+        "name": "Noctis",
+        "ultname": "",
+        "haname": ""
+    },
+    "ニーズヘッグ": {
+        "name": "HM-WA100 Nidhogg",
+        "ultname": "",
+        "haname": ""
+    },
+    "中島 敦": {
+        "name": "Nakajima Atsushi",
+        "ultname": "",
+        "haname": ""
+    },
+    "芥川 龍之介": {
+        "name": "Akutagawa Ryunosuke",
+        "ultname": "",
+        "haname": ""
+    },
+    "ゲームバズーカガール": {
+        "name": "Game Bazooka Girl",
+        "ultname": "",
+        "haname": ""
+    },
+    "ライザリン・シュタウト": {
+        "name": "Reisalin Stout",
+        "ultname": "",
+        "haname": ""
+    },
+    "青春 アリス": {
+        "name": "Aoharu Alice",
+        "ultname": "",
+        "haname": ""
+    },
+    "ジョーカー": {
+        "name": "Joker",
+        "ultname": "",
+        "haname": ""
+    },
+    "イグニス=ウィル=ウィスプ": {
+        "name": "Ignis 'Will' Wisp",
+        "ultname": "",
+        "haname": ""
+    },
+    "アインズ・ウール・ゴウン": {
+        "name": "Ainz Ooal Gown",
+        "ultname": "",
+        "haname": ""
+    },
+    "糸廻 輪廻": {
+        "name": "Itomeguri Rinne",
+        "ultname": "",
+        "haname": ""
+    },
+    "キリト": {
+        "name": "Kirito",
+        "ultname": "",
+        "haname": ""
+    },
+    "アスナ": {
+        "name": "Asuna",
+        "ultname": "",
+        "haname": ""
+    },
+    "Bugdoll": {
+        "name": "Bugdoll",
+        "ultname": "",
+        "haname": ""
+    },
+    "ステリア・ララ・シルワ": {
+        "name": "Stellea Lala Silva",
+        "ultname": "",
+        "haname": ""
+    },
+    "ラム": {
+        "name": "Ram",
+        "ultname": "",
+        "haname": ""
+    },
+    "2B": {
+        "name": "2B",
+        "ultname": "",
+        "haname": ""
+    },
+    "ラヴィ・シュシュマルシュ": {
+        "name": "Lovey Chouchoumarchou",
+        "ultname": "",
+        "haname": ""
+    },
+    "リムル=テンペスト": {
+        "name": "Rimuru Tempest",
+        "ultname": "",
+        "haname": ""
+    }
+}
