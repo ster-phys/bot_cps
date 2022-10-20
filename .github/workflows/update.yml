@@ -1,0 +1,54 @@
+name: Update Compass Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Update target"
+        required: true
+        type: choice
+        options:
+        - card
+        - hero
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r compass/requirements.txt
+
+      - name: Run update script
+        run: |
+          if [[ ${{ inputs.name }} == card ]]; then
+            python compass/update ${{ inputs.name }} ${{ secrets.YAGI_CARD_URL }} ${{ secrets.BOT_CPS_TOKEN }} > ./diff.html
+          else
+            python compass/update ${{ inputs.name }} ${{ secrets.YAGI_HERO_URL }} ${{ secrets.BOT_CPS_TOKEN }} > ./diff.html
+          fi
+
+      - name: Upload diff.html
+        uses: actions/upload-artifact@v3
+        with:
+          name: update-details
+          path: ./diff.html
+
+      - name: Remove diff.html
+        run: |
+          rm ./diff.html
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: "[actions] Update ${{ inputs.name }} data"
+          branch: "actions/patch"
+          title: "[actions] Update ${{ inputs.name }} data"
+          draft: true
