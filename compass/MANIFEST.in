@@ -1,0 +1,5 @@
+include LICENSE.md
+recursive-include compass/data *
+recursive-include compass/fonts *
+recursive-include compass/images *
+recursive-include compass/trans *
