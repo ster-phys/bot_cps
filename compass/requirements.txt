@@ -8,3 +8,4 @@ Pillow >= 9.2.0             # HPND License <https://github.com/python-pillow/Pil
 pykakasi >= 2.2.1           # GPL-3.0 license <https://github.com/miurahr/pykakasi>
 scikit-learn >= 1.1.2       # BSD-3-Clause license <https://github.com/scikit-learn/scikit-learn>
 typing_extensions >= 4.4.0  # Python Software Foundation License <https://github.com/python/typing_extensions>
+rapidfuzz==2.0.6            # MIT license <https://github.com/maxbachmann/RapidFuzz>
