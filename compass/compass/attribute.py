@@ -86,3 +86,13 @@ class Attribute(Tstr, Enum):
             "火": ["火", "赤", "紅",],
         }
         return d[str(self)]
+
+    @property
+    def color(self) -> int:
+        """Gets this attribute color."""
+        if str(self) == "水":
+            return 0x0D1BCE
+        elif str(self) == "火":
+            return 0xE7382A
+        else: # str(self) == "木"
+            return 0x59B93A
