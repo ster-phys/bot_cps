@@ -1,0 +1,469 @@
+[
+    {
+        "name": "オーバーロード 60連カードガチャ（ＵＲ２倍！）",
+        "k": 60,
+        "weight": {
+            "UR": 2,
+            "SR": 13.5,
+            "R": 84.5
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR",
+                    "オーバーロード"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR",
+                    "オーバーロード"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "R": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R",
+                    "オーバーロード"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ]
+    },
+    {
+        "name": "レア以上確定！ 60連 カードガチャ",
+        "k": 60,
+        "weight": {
+            "UR": 1,
+            "SR": 9,
+            "R": 90
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "R": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "name": "有料ビットマネー限定！ デイリーガチャ",
+        "k": 5,
+        "weight": {
+            "UR": 1,
+            "SR": 9,
+            "R": 90
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "R": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "name": "火属性 URチケットカードガチャ",
+        "k": 1,
+        "weight": {
+            "UR": 100
+        },
+        "UR": [
+            {
+                "args": [
+                    "火",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "name": "水属性 URチケットカードガチャ",
+        "k": 1,
+        "weight": {
+            "UR": 100
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "name": "木属性 URチケットカードガチャ",
+        "k": 1,
+        "weight": {
+            "UR": 100
+        },
+        "UR": [
+            {
+                "args": [
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "name": "無料11連 カードガチャ",
+        "k": 11,
+        "weight": {
+            "UR": 0.2,
+            "SR": 1.8,
+            "R": 28,
+            "N": 70
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "R": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "N": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "N"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "name": "無料 カードガチャ",
+        "k": 1,
+        "weight": {
+            "UR": 0.2,
+            "SR": 1.8,
+            "R": 28,
+            "N": 70
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "R": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "N": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "N"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ]
+    },
+    {
+        "name": "SR以上確定 11連ガチャ",
+        "k": 11,
+        "weight": {
+            "UR": 15,
+            "SR": 85
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            }
+        ]
+    }
+]
