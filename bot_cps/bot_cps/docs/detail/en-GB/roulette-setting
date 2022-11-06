@@ -1,0 +1,7 @@
+The command to set parameters for ``/roulette`` command.```
+/roulette-setting
+```will display buttons for setting parameters.
+
+The blue buttons are the selected parameters and the gray buttons are the **not selected** buttons. By pressing the buttons, you can change the selection/unselection.
+Press `[Reset]` to initialize the parameters.
+Press `[Run]` to run the roulette. Roulette can also be executed by `/roulette` command.

@@ -1,0 +1,8 @@
+The command to add emojis for hero icons.
+Only the server owner can add them.```
+/emoji
+```displays buttons with emoji. By pressing the button, the emoji can be added.
+
+※ Because there is a limit to the number of emojis that can be added to the server, you may not be able to add all hero emojis.
+※ The bot must have "Manage Emojis and Stickers" permission in order to add emoji.
+※ Nitro users can use emojis anywhere when they join the support server.
