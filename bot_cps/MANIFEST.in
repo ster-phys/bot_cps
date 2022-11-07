@@ -1,0 +1,3 @@
+include LICENSE.md
+recursive-include bot_cps/assets *
+recursive-include bot_cps/docs *
