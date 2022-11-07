@@ -1,11 +1,11 @@
-aiohttp >= 3.8.3            # Apache-2.0 license <https://github.com/aio-libs/aiohttp>
-beautifulsoup4 >= 4.11.1    # MIT license <https://code.launchpad.net/beautifulsoup>
-cryptography >= 38.0.1      # Apache-2.0 license <https://github.com/pyca/cryptography>
-Levenshtein >= 0.20.5       # GPL-2.0 license <https://github.com/maxbachmann/python-Levenshtein>
-lxml >= 4.9.1               # BSD license <https://github.com/lxml/lxml>
-opencv-python >= 4.6.0.66   # MIT license <https://github.com/opencv/opencv-python>
-Pillow >= 9.2.0             # HPND License <https://github.com/python-pillow/Pillow>
-pykakasi >= 2.2.1           # GPL-3.0 license <https://github.com/miurahr/pykakasi>
-scikit-learn >= 1.1.2       # BSD-3-Clause license <https://github.com/scikit-learn/scikit-learn>
-typing_extensions >= 4.4.0  # Python Software Foundation License <https://github.com/python/typing_extensions>
-rapidfuzz==2.0.6            # MIT license <https://github.com/maxbachmann/RapidFuzz>
+aiohttp           # Apache-2.0 license <https://github.com/aio-libs/aiohttp>
+beautifulsoup4    # MIT license <https://code.launchpad.net/beautifulsoup>
+cryptography      # Apache-2.0 license <https://github.com/pyca/cryptography>
+Levenshtein       # GPL-2.0 license <https://github.com/maxbachmann/python-Levenshtein>
+lxml              # BSD license <https://github.com/lxml/lxml>
+opencv-python     # MIT license <https://github.com/opencv/opencv-python>
+Pillow            # HPND License <https://github.com/python-pillow/Pillow>
+pykakasi          # GPL-3.0 license <https://github.com/miurahr/pykakasi>
+scikit-learn      # BSD-3-Clause license <https://github.com/scikit-learn/scikit-learn>
+typing_extensions # Python Software Foundation License <https://github.com/python/typing_extensions>
+rapidfuzz==2.0.6  # MIT license <https://github.com/maxbachmann/RapidFuzz>
