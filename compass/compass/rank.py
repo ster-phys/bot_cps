@@ -20,8 +20,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 """
 
-from __future__ import annotations
-
 __all__ = (
     "Rank",
 )
@@ -46,7 +44,7 @@ def precompare(check_collabo: bool = True):
 
     """
 
-    def _precompare(function: Callable[[Rank | str, object], bool]):
+    def _precompare(function: Callable[..., bool]):
         def wrapper(self: function.__class__, __x: object):
             __x = Rank("s") if __x.lower() == "s1" else Rank(__x.lower())
             if check_collabo and (self.is_collabo or __x.is_collabo):

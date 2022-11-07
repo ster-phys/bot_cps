@@ -20,8 +20,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 """
 
-from __future__ import annotations
-
 __all__ = (
     "CardData",
     "HeroData",
@@ -444,8 +442,8 @@ class CardData(UserList[Card]):
         if not (1 <= len(self) <= 4):
             raise RuntimeError("Length of data must be between 1 and 4.")
 
-        levels.extend([50]*4)
-        levels = levels[:len(self)]
+        while(len(self) > len(levels)):
+            levels.extend([50])
 
         if path is None:
             _, path = mkstemp(".png")
