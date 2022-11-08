@@ -1,5 +1,17 @@
 # bot_cps
 
+[![LICENSE](https://img.shields.io/github/license/ster-phys/bot_cps)](./LICENSE) [![Discord](https://img.shields.io/discord/834671256367530014.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](http://discord.gg/Pmt5BetUqb) [![Twitter Follow](https://img.shields.io/twitter/follow/bot_cps?style=social)](https://twitter.com/bot_cps)
+
+This repository is a [Discord](https://discord.com/) bot for [#Compass](https://app.nhn-playart.com/compass/), written in python. We provide a variety of features.
+
+## What's in This Repository
+
+- Library for #Compass data ([compass](./compass/README.md)).
+- Discord cogs for bot_cps ([bot_cps](./bot_cps/README.md)).
+- Launcher for bots managed by bot_cps ([apps](./apps/README.md)).
+
+**Note**: The licence is for the source code and text. This means that the copyright of #Compass cards, hero images, etc. remains with [Game Publisher](https://app.nhn-playart.com/compass/).
+
 ## For Developers and Users
 
 The first commit was made on Tue Nov 17 2020 18:45:20 GMT+0900.
