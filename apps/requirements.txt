@@ -1,0 +1,4 @@
+discord.py  # MIT license <https://github.com/Rapptz/discord.py>
+compass @ git+https://github.com/ster-phys/bot_cps@v1.1.2-compass#subdirectory=compass # GPL-3.0 license <https://github.com/ster-phys/bot_cps/compass>
+bot_cps @ git+https://github.com/ster-phys/bot_cps@v1.0.0-bot_cps#subdirectory=bot_cps # GPL-3.0 license <https://github.com/ster-phys/bot_cps/bot_cps>
+aiohttp    # Apache-2.0 license <https://github.com/aio-libs/aiohttp>
