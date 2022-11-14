@@ -1,6 +1,6 @@
 # bot_cps
 
-[![LICENSE](https://img.shields.io/github/license/ster-phys/bot_cps)](./LICENSE) [![Discord](https://img.shields.io/discord/834671256367530014.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](http://discord.gg/Pmt5BetUqb) [![Twitter Follow](https://img.shields.io/twitter/follow/bot_cps?style=social)](https://twitter.com/bot_cps)
+[![](https://img.shields.io/badge/python-3.10-3776AB.svg?logo=python)](https://docs.python.org/3.10/) [![LICENSE](https://img.shields.io/github/license/ster-phys/bot_cps)](./LICENSE) [![Discord](https://img.shields.io/discord/834671256367530014.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](http://discord.gg/Pmt5BetUqb) [![Twitter Follow](https://img.shields.io/twitter/follow/bot_cps?style=social)](https://twitter.com/bot_cps)
 
 This repository is a [Discord](https://discord.com/) bot for [#Compass](https://app.nhn-playart.com/compass/), written in python. We provide a variety of features.
 
