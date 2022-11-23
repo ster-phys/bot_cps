@@ -10,7 +10,7 @@ __title__ = "bot_cps"
 __author__ = "ster"
 __license__ = "GPL-3.0"
 __copyright__ = "Copyright 2021-present ster"
-__version__ = "1.1.0a"
+__version__ = "1.0.1"
 
 __all__ = (
     "EXTENSIONS",
