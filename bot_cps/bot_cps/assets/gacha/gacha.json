@@ -1,5 +1,413 @@
 [
     {
+        "name": "猫宮ひなた 60連カードガチャ（ＵＲ２倍！）",
+        "k": 60,
+        "weight": {
+            "UR": 2,
+            "SR": 13.5,
+            "R": 84.5
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR",
+                    "猫宮ひなた"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR",
+                    "猫宮ひなた"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "R": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R",
+                    "猫宮ひなた"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ]
+    },
+    {
+        "name": "この素晴らしい世界に祝福を! 60連カードガチャ（ＵＲ２倍！）",
+        "k": 60,
+        "weight": {
+            "UR": 2,
+            "SR": 13.5,
+            "R": 84.5
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR",
+                    "この素晴らしい世界に祝福を!"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR",
+                    "この素晴らしい世界に祝福を!"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "R": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R",
+                    "この素晴らしい世界に祝福を!"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ]
+    },
+    {
+        "name": "進撃の巨人 60連カードガチャ（ＵＲ２倍！）",
+        "k": 60,
+        "weight": {
+            "UR": 2,
+            "SR": 13.5,
+            "R": 84.5
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR",
+                    "進撃の巨人"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR",
+                    "進撃の巨人"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "R": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R",
+                    "進撃の巨人"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ]
+    },
+    {
+        "name": "STEINS;GATE 60連カードガチャ（ＵＲ２倍！）",
+        "k": 60,
+        "weight": {
+            "UR": 2,
+            "SR": 13.5,
+            "R": 84.5
+        },
+        "UR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "UR",
+                    "STEINS;GATE"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "SR": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "SR",
+                    "STEINS;GATE"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ],
+        "R": [
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": true,
+                    "collabo": false
+                },
+                "weight": 1
+            },
+            {
+                "args": [
+                    "水",
+                    "火",
+                    "木",
+                    "R",
+                    "STEINS;GATE"
+                ],
+                "kwargs": {
+                    "season": false,
+                    "normal": false,
+                    "collabo": true
+                },
+                "weight": 20
+            }
+        ]
+    },
+    {
         "name": "オーバーロード 60連カードガチャ（ＵＲ２倍！）",
         "k": 60,
         "weight": {
