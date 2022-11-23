@@ -38,6 +38,7 @@ class Bot(commands.Bot):
                          intents=Intents.all(), activity=activity)
 
     async def setup_hook(self) -> None:
+        await self.load_extension("apps.ashley.delete")
         await self.load_extension("apps.ashley.role")
         await self.load_extension("apps.ashley.translate")
 
