@@ -62,6 +62,35 @@ class _Config(object):
             """Compass enjoyer role ID of the support server."""
             return 949894654839627808
 
+        # temporary roles
+        @property
+        def CHATTING(self) -> int:
+            """
+            Role ID given to users when joining the chatting voice
+            channel.
+            """
+            return 1043605852667527330
+
+        @property
+        def TEAM_BLUE(self) -> int:
+            """Role ID given to users when joining a team channel."""
+            return 1043572987267391530
+
+        @property
+        def TEAM_RED(self) -> int:
+            """Role ID given to users when joining a team channel."""
+            return 1043573392621699142
+
+        @property
+        def TEAM_GREEN(self) -> int:
+            """Role ID given to users when joining a team channel."""
+            return 1043573308530114590
+
+        @property
+        def TEAM_ORANGE(self) -> int:
+            """Role ID given to users when joining a team channel."""
+            return 1043573436598976602
+
     ROLE_IDs = _RoleIDs()
 
     class _ChannelIDs(object):
@@ -91,6 +120,69 @@ class _Config(object):
         def COMMAND(self) -> int:
             """ID of the channel to output the logging of the command."""
             return 947759158927699988
+
+        class _Voice(object):
+            """Class in which the voice channel IDs are written."""
+
+            @property
+            def CHATTING(self) -> int:
+                """ID of the voice channel to chat."""
+                return 939515974435090472
+
+            @property
+            def TEAM_BLUE(self) -> int:
+                """ID of the voice channel to play game."""
+                return 1043567908409856141
+
+            @property
+            def TEAM_RED(self) -> int:
+                """ID of the voice channel to play game."""
+                return 1043569142155968542
+
+            @property
+            def TEAM_GREEN(self) -> int:
+                """ID of the voice channel to play game."""
+                return 1043571094973595688
+
+            @property
+            def TEAM_ORANGE(self) -> int:
+                """ID of the voice channel to play game."""
+                return 1043571669626794034
+
+        VOICE = _Voice()
+
+        class _Text(object):
+            """
+            Class in which the text channel IDs related to the voice
+            channels are written.
+            """
+
+            @property
+            def CHATTING(self) -> int:
+                """ID of the text channel to chat."""
+                return 1043605816260956280
+
+            @property
+            def TEAM_BLUE(self) -> int:
+                """ID of the text channel to play game."""
+                return 1043572520906932357
+
+            @property
+            def TEAM_RED(self) -> int:
+                """ID of the text channel to play game."""
+                return 1043572588527497216
+
+            @property
+            def TEAM_GREEN(self) -> int:
+                """ID of the text channel to play game."""
+                return 1043572627823927386
+
+            @property
+            def TEAM_ORANGE(self) -> int:
+                """ID of the text channel to play game."""
+                return 1043572662791843941
+
+        TEXT = _Text()
 
     CHANNEL_IDs = _ChannelIDs()
 

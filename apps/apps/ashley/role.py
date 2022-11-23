@@ -22,7 +22,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 import logging
 
-from discord import Message
+from discord import Member, Message, Role, VoiceState
 from discord.ext import commands, tasks
 from discord.ext.commands import Bot
 
@@ -34,12 +34,14 @@ logger = logging.getLogger(__name__)
 
 
 async def setup(bot: Bot) -> None:
-    await bot.add_cog(AutoRoleGrant(bot))
+    await bot.add_cog(EnjoyerRoleGrant(bot))
+    await bot.add_cog(VoiceRoleGrant(bot))
 
 async def teardown(bot: Bot) -> None:
-    await bot.remove_cog("AutoRoleGrant")
+    await bot.remove_cog("EnjoyerRoleGrant")
+    await bot.remove_cog("VoiceRoleGrant")
 
-class AutoRoleGrant(CogBase):
+class EnjoyerRoleGrant(CogBase):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
 
@@ -72,4 +74,30 @@ class AutoRoleGrant(CogBase):
     async def on_message(self, message: Message) -> None:
         if not message.author.bot and message.channel.id == CONFIG.CHANNEL_IDs.PROFILE:
             await message.author.add_roles(self.role)
+        return
+
+class VoiceRoleGrant(CogBase):
+    def __init__(self, bot: Bot) -> None:
+        super().__init__(bot, logger)
+
+    async def run_once_when_ready(self) -> None:
+        self.guild = await self.bot.fetch_guild(CONFIG.GUILD_ID)
+        self.corr: dict[int, Role] = {
+            CONFIG.CHANNEL_IDs.VOICE.CHATTING: self.guild.get_role(CONFIG.ROLE_IDs.CHATTING),
+            CONFIG.CHANNEL_IDs.VOICE.TEAM_BLUE: self.guild.get_role(CONFIG.ROLE_IDs.TEAM_BLUE),
+            CONFIG.CHANNEL_IDs.VOICE.TEAM_RED: self.guild.get_role(CONFIG.ROLE_IDs.TEAM_RED),
+            CONFIG.CHANNEL_IDs.VOICE.TEAM_GREEN: self.guild.get_role(CONFIG.ROLE_IDs.TEAM_GREEN),
+            CONFIG.CHANNEL_IDs.VOICE.TEAM_ORANGE: self.guild.get_role(CONFIG.ROLE_IDs.TEAM_ORANGE),
+        }
+        return await super().run_once_when_ready()
+
+    @commands.Cog.listener("on_voice_state_update")
+    async def on_voice_state_update(self, member: Member, before: VoiceState, after: VoiceState):
+
+        if before.channel is not None and before.channel.id in self.corr:
+            await member.remove_roles(self.corr[before.channel.id])
+
+        if after.channel is not None and after.channel.id in self.corr:
+            await member.add_roles(self.corr[after.channel.id])
+
         return
