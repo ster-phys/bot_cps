@@ -6,13 +6,11 @@ Cogs for Compass Bot
 
 """
 
-from __future__ import annotations
-
 __title__ = "bot_cps"
 __author__ = "ster"
 __license__ = "GPL-3.0"
 __copyright__ = "Copyright 2021-present ster"
-__version__ = "1.0.0"
+__version__ = "1.1.0a"
 
 __all__ = (
     "EXTENSIONS",
