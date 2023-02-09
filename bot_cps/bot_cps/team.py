@@ -234,7 +234,7 @@ class TeamManagement(ViewBase):
         await interaction.response.edit_message(embed=await self.embed())
         return
 
-    @ui.button(label="　", style=ButtonStyle.gray, disabled=True)
+    @ui.button(label="ㅤ", style=ButtonStyle.gray, disabled=True)
     async def empty_02(self, interaction: Interaction, button: ui.Button) -> None:
         pass
 
@@ -246,11 +246,11 @@ class TeamManagement(ViewBase):
         await interaction.response.edit_message(embed=await self.embed())
         return
 
-    @ui.button(label="　", style=ButtonStyle.gray, disabled=True)
+    @ui.button(label="ㅤ", style=ButtonStyle.gray, disabled=True)
     async def empty_04(self, interaction: Interaction, button: ui.Button) -> None:
         pass
 
-    @ui.button(label="　", style=ButtonStyle.gray, disabled=True)
+    @ui.button(label="ㅤ", style=ButtonStyle.gray, disabled=True)
     async def empty_05(self, interaction: Interaction, button: ui.Button) -> None:
         pass
 
@@ -287,7 +287,7 @@ class TeamManagement(ViewBase):
         await interaction.response.edit_message(embed=await self.embed())
         return
 
-    @ui.button(label="　", style=ButtonStyle.gray, disabled=True)
+    @ui.button(label="ㅤ", style=ButtonStyle.gray, disabled=True)
     async def empty_09(self, interaction: Interaction, button: ui.Button) -> None:
         pass
 

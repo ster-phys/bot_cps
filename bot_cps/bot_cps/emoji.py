@@ -139,7 +139,7 @@ class EmptyButton(ui.Button):
     def __init__(self) -> None:
         super().__init__()
         self.style = ButtonStyle.gray
-        self.label = "　"
+        self.label = "ㅤ"
         self.disabled = True
 
 class EmojiView(ViewBase):
