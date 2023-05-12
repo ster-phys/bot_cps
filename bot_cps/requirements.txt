@@ -1,2 +1,0 @@
-discord.py  # MIT license <https://github.com/Rapptz/discord.py>
-compass @ git+https://github.com/ster-phys/bot_cps@v1.1.2-compass#subdirectory=compass # GPL-3.0 license <https://github.com/ster-phys/bot_cps/compass>
