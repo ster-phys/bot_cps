@@ -39,14 +39,17 @@ jobs:
           echo "$POT_HEADER" > $TITLE_POT
           echo "$POT_HEADER" > $DETAIL_POT
           for path in $(ls bot_cps/docs/title/*); do
-              cmd=${path##*/}
-              title=$(cat $path)
-              echo "#: $cmd@msgid \"$title\"@msgstr \"\"@@" | tr "@" "\n" >> $TITLE_POT
+            cmd=${path##*/}
+            title=$(cat $path)
+            echo "#: $cmd@msgid \"$title\"@msgstr \"\"@@" | tr "@" "\n" >> $TITLE_POT
           done
           for path in $(ls bot_cps/docs/detail/*); do
-              cmd=${path##*/}
-              content=$(cat $path)
-              echo "#: $cmd@msgid \"$content\"@msgstr \"\"@@" | tr "@" "\n" >> $DETAIL_POT
+            content=$(cat $path)
+            idx=1
+            while read line ; do
+              echo "#: $path:$idx@msgid \"$line\"@msgstr \"\"@" | tr "@" "\n" >> $DETAIL_POT
+              idx=$(expr $idx + 1)
+            done < ${path}
           done
 
       - name: Push to master

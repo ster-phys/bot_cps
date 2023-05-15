@@ -76,8 +76,11 @@ class Help(Cog):
             embed = Embed(title=title, description=description, color=config.color)
 
         else: # shows command detail
-            with open(path.detail_dir + f"/{command}", "r") as f:
-                description = _(f.read()).to(ctx.interaction.locale)
+            with open(f"{path.detail_dir}/{command}", "r") as f:
+                lines = f.readlines()
+                description = ""
+                for line in lines:
+                    description += _(line.rstrip("\n")).to(ctx.interaction.locale) + "\n"
 
             embed = Embed(title=f"/{command}", description=description, color=config.color)
 
