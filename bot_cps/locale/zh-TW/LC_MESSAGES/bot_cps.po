@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-15 16:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: bot_cps/base.py:100
+msgid "同意する"
+msgstr "同意"
+
+#: bot_cps/base.py:106
+msgid "利用規約に同意しました"
+msgstr "已同意使用條款"
+
+#: bot_cps/base.py:119
+msgid "同意しない"
+msgstr "不同意"
+
+#: bot_cps/base.py:124
+msgid "利用規約の同意に拒否しました"
+msgstr "已拒絕同意使用條款"
+
+#: bot_cps/base.py:176
+msgid "利用規約に同意しますか？"
+msgstr "您同意使用條款嗎？"
+
+#: bot_cps/base.py:191
+msgid "利用規約"
+msgstr "使用條款"
+
+#: bot_cps/base.py:194
+msgid "利用規約（続き）"
+msgstr "使用條款（接續）"
+
+#: bot_cps/card.py:56
+msgid "カードの詳細またはデッキのステータスを調べる"
+msgstr "查詢卡片的能力與體質"
+
+#: bot_cps/card.py:59
+msgid "カードの名前を空白区切りで入力してね！（最大４つ）"
+msgstr "請輸入卡片名稱，不同卡片用空格分開"
+
+#: bot_cps/card.py:60
+msgid "カードのレベルを指定してね！"
+msgstr "請指定卡片的等級！"
+
+#: bot_cps/card.py:87 bot_cps/card.py:190 bot_cps/deck.py:190
+msgid "データ提供：やぎシミュ"
+msgstr "資料提供：ヤギシミュ（山羊模擬器）"
+
+#: bot_cps/card.py:189
+msgid "デッキ総合力"
+msgstr "卡組綜合力"
+
+#: bot_cps/deck.py:60
+msgid "ランダムなデッキを生成する"
+msgstr ""隨機生成卡組"
+
+#: bot_cps/deck.py:70
+msgid "デッキの設定"
+msgstr "更改卡組設定"
+
+#: bot_cps/deck.py:173
+msgid "その条件ではデッキを生成できません"
+msgstr "無法用該條件生成卡組"
+
+#: bot_cps/deck.py:186
+msgid "デッキ総合力（Lv.200）"
+msgstr "卡組綜合力（Lv.200）"
+
+#: bot_cps/deck.py:227 bot_cps/roulette.py:218
+msgid "初期化"
+msgstr "初始化"
+
+#: bot_cps/deck.py:243 bot_cps/roulette.py:236 bot_cps/team.py:224
+msgid "実行"
+msgstr "執行"
+
+#: bot_cps/deck.py:258
+msgid "恒常"
+msgstr "常駐"
+
+#: bot_cps/deck.py:259 bot_cps/roulette.py:198
+msgid "コラボ"
+msgstr "合作"
+
+#: bot_cps/deck.py:260
+msgid "シーズン"
+msgstr "賽季卡"
+
+#: bot_cps/deck.py:261
+msgid "火"
+msgstr "火"
+
+#: bot_cps/deck.py:262
+msgid "水"
+msgstr "水"
+
+#: bot_cps/deck.py:263
+msgid "木"
+msgstr "木"
+
+#: bot_cps/deck.py:268
+msgid "バランス"
+msgstr "均衡"
+
+#: bot_cps/deck.py:269
+msgid "ランダム"
+msgstr "隨機"
+
+#: bot_cps/emoji.py:59
+msgid "コンパスのアイコンを絵文字として追加する"
+msgstr "將#compass內的英雄頭像追加到表情符號"
+
+#: bot_cps/emoji.py:65 bot_cps/emoji.py:86
+msgid "追加できる絵文字はないよ！"
+msgstr "沒有能追加的表情符號喔！"
+
+#: bot_cps/emoji.py:70
+msgid "鯖主のみ使用できます！"
+msgstr "只有群組擁有者可以使用！"
+
+#: bot_cps/emoji.py:120
+msgid "{0} の実行した /emoji コマンドにより追加"
+msgstr "依 {0} 輸入的 /emoji 指令追加"
+
+#: bot_cps/gacha.py:63
+msgid "ガチャシミュレーター"
+msgstr "抽卡模擬器"
+
+#: bot_cps/gacha.py:66
+msgid "シミュレートするガチャの名前を指定してね！"
+msgstr "請決定模擬的卡池！"
+
+#: bot_cps/help.py:59
+msgid "コマンドについて調べる"
+msgstr "查詢bot的指令"
+
+#: bot_cps/help.py:62
+msgid "コマンドの名前（指定しない場合，コマンド一覧が表示される）"
+msgstr "指令名稱（沒有指定的狀況將會顯示指令一覽）"
+
+#: bot_cps/help.py:69
+msgid "コマンド一覧"
+msgstr "指令一覽"
+
+#: bot_cps/ping.py:48
+msgid "ping値を返す"
+msgstr "回傳ping"
+
+#: bot_cps/roulette.py:63
+msgid "ヒーロールーレット"
+msgstr "英雄轉盤"
+
+#: bot_cps/roulette.py:73
+msgid "ヒーロールーレットの設定"
+msgstr "更改英雄轉盤設定"
+
+#: bot_cps/roulette.py:178
+msgid "オリジナル"
+msgstr "常駐"
+
+#: bot_cps/stage.py:53
+msgid "ステージガチャ"
+msgstr "隨機場地"
+
+#: bot_cps/stage.py:56
+msgid "１チームあたりの人数を選んでね！"
+msgstr "請選擇各隊人數！"
+
+#: bot_cps/team.py:71
+msgid "チーム分けを行う"
+msgstr "隨機分組"
+
+#: bot_cps/team.py:83
+msgid "以前に使用したデータがあります．初期化しますか？"
+msgstr "找到過去使用的過的資料，要初始化嗎？"
+
+#: bot_cps/team.py:112 bot_cps/team.py:143
+msgid "先に `/team` コマンドを使用してね！"
+msgstr "請先輸入 `/team` 指令！"
+
+#: bot_cps/team.py:120
+msgid "{0} を追加したよ！"
+msgstr "已追加 {0}！"
+
+#: bot_cps/team.py:124
+msgid "{0} は既に追加されてるよ！"
+msgstr "{0} 已經被追加過了喔！"
+
+#: bot_cps/team.py:151
+msgid "{0} を辞退させたよ！"
+msgstr "已退出 {0}！"
+
+#: bot_cps/team.py:155
+msgid "{0} は既に辞退しているよ！"
+msgstr "{0} 已經被退出了喔！"
+
+#: bot_cps/team.py:173
+msgid "参加"
+msgstr "加入"
+
+#: bot_cps/team.py:190
+msgid "辞退"
+msgstr "退出"
+
+#: bot_cps/team.py:207
+msgid "同期"
+msgstr "同步"
+
+#: bot_cps/team.py:233
+msgid "{0}人ずつのチームに分けるには{1}人以上必要だよ！"
+msgstr "一隊{0}人的隊伍需要{1}人以上參與喔！"
+
+#: bot_cps/team.py:304
+msgid "チーム分け参加者リスト（計 {0} 人）"
+msgstr "各隊參加者名單（共 {0} 人）"
+
+#: bot_cps/team.py:305
+msgid "１チームあたりの人数：{0}"
+msgstr "各隊人數：{0}"
+
+#: bot_cps/team.py:354
+msgid "はい"
+msgstr "是"
+
+#: bot_cps/team.py:371
+msgid "いいえ"
+msgstr "否"
+
+#: bot_cps/tos.py:52
+msgid "利用規約を確認する"
+msgstr "確認使用條款"
+
+#: bot_cps/tos.py:58
+msgid "<t:{0}>に同意しています"
+msgstr "於<t:{0}>同意"
+
