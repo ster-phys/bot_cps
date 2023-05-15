@@ -1,3 +1,0 @@
-The command generates a random deck.
-If no parameters are set with `/deck-setting` command, a balanced deck of normals/collaborations, UR, and 3 colors is randomly generated.
-If you want to specify the rarity etc., `/deck-setting` command can be used.

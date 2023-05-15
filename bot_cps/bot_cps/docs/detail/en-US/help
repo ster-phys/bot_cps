@@ -1,6 +1,0 @@
-The command displays a list of commands or help for each command.
-To display a list of commands, use ```
-/help
-```. To display help for a specific command, specify the command name as the `command` argument. For example, to display help for the `help` command, use```
-/help command: help
-```.
