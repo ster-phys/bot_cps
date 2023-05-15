@@ -1,0 +1,4 @@
+include LICENSE
+recursive-include bot_cps/asset *
+recursive-include bot_cps/docs *
+recursive-include bot_cps/locale *

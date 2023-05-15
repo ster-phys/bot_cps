@@ -1,0 +1,4 @@
+aiohttp    # Apache-2.0 license <https://github.com/aio-libs/aiohttp>
+compass @ git+https://github.com/ster-phys/compass@master
+           # GPL-3.0 license <https://github.com/ster-phys/compass>
+discord.py # MIT license <https://github.com/Rapptz/discord.py>
