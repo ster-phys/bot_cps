@@ -1,0 +1,33 @@
+name: Generate pot files
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - "bot_cps/*.py"
+
+jobs:
+  generate_pot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Run generating pot scripts
+        run: |
+          python i18n/pygettext.py -d bot_cps -p bot_cps/locale $(ls -d bot_cps/*.py)
+
+      - name: Push to master
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add bot_cps/locale/bot_cps.pot
+          git commit -m "[actions] Update pot files"
+          git push
