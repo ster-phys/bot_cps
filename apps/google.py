@@ -1,5 +1,5 @@
 """
-A library that provides Bot Launcher Managed by bot_cps
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -24,12 +24,14 @@ __all__ = (
     "GoogleTranslator",
 )
 
+
 import logging
 import urllib.parse
 from random import randint
 
 import aiohttp
 from discord import Locale
+
 
 logger = logging.getLogger(__name__)
 

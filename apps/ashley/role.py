@@ -1,5 +1,5 @@
 """
-A library that provides Bot Launcher Managed by bot_cps
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -26,9 +26,9 @@ from discord import Member, Message, Role, VoiceState
 from discord.ext import commands, tasks
 from discord.ext.commands import Bot
 
-from bot_cps.base import CogBase
+from ..cog import Cog
+from ..config import config
 
-from ..config import CONFIG
 
 logger = logging.getLogger(__name__)
 
@@ -37,11 +37,13 @@ async def setup(bot: Bot) -> None:
     await bot.add_cog(EnjoyerRoleGrant(bot))
     await bot.add_cog(VoiceRoleGrant(bot))
 
+
 async def teardown(bot: Bot) -> None:
     await bot.remove_cog("EnjoyerRoleGrant")
     await bot.remove_cog("VoiceRoleGrant")
 
-class EnjoyerRoleGrant(CogBase):
+
+class EnjoyerRoleGrant(Cog):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
 
@@ -51,9 +53,9 @@ class EnjoyerRoleGrant(CogBase):
         return await super().run_once_when_ready()
 
     async def get_object(self) -> None:
-        self.guild = await self.bot.fetch_guild(CONFIG.GUILD_ID)
-        self.channel = await self.bot.fetch_channel(CONFIG.CHANNEL_IDs.PROFILE)
-        self.role = self.guild.get_role(CONFIG.ROLE_IDs.ENJOYER)
+        self.guild = await self.bot.fetch_guild(config.guilds.bot_cps)
+        self.channel = await self.bot.fetch_channel(config.channels.text.profile)
+        self.role = self.guild.get_role(config.roles.enjoyer)
         return
 
     @tasks.loop(minutes=10)
@@ -72,22 +74,23 @@ class EnjoyerRoleGrant(CogBase):
 
     @commands.Cog.listener("on_message")
     async def on_message(self, message: Message) -> None:
-        if not message.author.bot and message.channel.id == CONFIG.CHANNEL_IDs.PROFILE:
+        if not message.author.bot and message.channel.id == config.channels.text.profile:
             await message.author.add_roles(self.role)
         return
 
-class VoiceRoleGrant(CogBase):
+
+class VoiceRoleGrant(Cog):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
 
     async def run_once_when_ready(self) -> None:
-        self.guild = await self.bot.fetch_guild(CONFIG.GUILD_ID)
+        self.guild = await self.bot.fetch_guild(config.guilds.bot_cps)
         self.corr: dict[int, Role] = {
-            CONFIG.CHANNEL_IDs.VOICE.CHATTING: self.guild.get_role(CONFIG.ROLE_IDs.CHATTING),
-            CONFIG.CHANNEL_IDs.VOICE.TEAM_BLUE: self.guild.get_role(CONFIG.ROLE_IDs.TEAM_BLUE),
-            CONFIG.CHANNEL_IDs.VOICE.TEAM_RED: self.guild.get_role(CONFIG.ROLE_IDs.TEAM_RED),
-            CONFIG.CHANNEL_IDs.VOICE.TEAM_GREEN: self.guild.get_role(CONFIG.ROLE_IDs.TEAM_GREEN),
-            CONFIG.CHANNEL_IDs.VOICE.TEAM_ORANGE: self.guild.get_role(CONFIG.ROLE_IDs.TEAM_ORANGE),
+            config.channels.voice.chatting: self.guild.get_role(config.roles.chatting),
+            config.channels.voice.team_blue: self.guild.get_role(config.roles.team_blue),
+            config.channels.voice.team_red: self.guild.get_role(config.roles.team_red),
+            config.channels.voice.team_green: self.guild.get_role(config.roles.team_green),
+            config.channels.voice.team_orange: self.guild.get_role(config.roles.team_orange),
         }
         return await super().run_once_when_ready()
 

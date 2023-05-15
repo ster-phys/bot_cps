@@ -1,5 +1,5 @@
 """
-A library that provides Bot Launcher Managed by bot_cps
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -22,11 +22,14 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 import logging
 import os
+from glob import glob
+from os.path import abspath, basename, dirname, splitext
 
 from discord import Activity, ActivityType, Intents, Object
 from discord.ext import commands
 
-from ..config import CONFIG
+from ..config import config
+
 
 logger = logging.getLogger(f"{__name__}")
 
@@ -34,21 +37,27 @@ logger = logging.getLogger(f"{__name__}")
 class Bot(commands.Bot):
     def __init__(self) -> None:
         activity = Activity(name="bot_cps", type=ActivityType.playing)
+
         super().__init__(command_prefix="/", help_command=None,
                          intents=Intents.all(), activity=activity)
 
     async def setup_hook(self) -> None:
-        await self.load_extension("apps.mailot.access")
-        await self.load_extension("apps.mailot.conversation")
+        root_path = dirname(abspath(__file__))
+        files = glob(f"{root_path}/[!_]*.py")
 
-        self.tree.copy_global_to(guild=Object(CONFIG.GUILD_ID))
-        await self.tree.sync(guild=Object(CONFIG.GUILD_ID))
+        for ext in map(lambda file: splitext(basename(file))[0], files):
+            await self.load_extension(f"apps.mailot.{ext}")
+
+        self.tree.copy_global_to(guild=Object(config.guilds.bot_cps))
+        await self.tree.sync(guild=Object(config.guilds.bot_cps))
 
     async def on_ready(self) -> None:
         logger.info(f"Logged in as {self.user}({self.user.id})")
 
+
     def run(self, token: str) -> None:
         super().run(token, root_logger=True)
+
 
 if __name__ == "__main__":
     bot = Bot()

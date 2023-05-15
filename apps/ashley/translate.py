@@ -1,5 +1,5 @@
 """
-A library that provides Bot Launcher Managed by bot_cps
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -27,10 +27,11 @@ from discord import Embed, Locale, Message
 from discord.ext import commands
 from discord.ext.commands import Bot
 
-from bot_cps.base import CogBase
 
-from ..config import CONFIG
+from ..cog import Cog
+from ..config import config
 from ..google import GoogleTranslator
+
 
 logger = logging.getLogger(__name__)
 
@@ -38,10 +39,12 @@ logger = logging.getLogger(__name__)
 async def setup(bot: Bot) -> None:
     await bot.add_cog(Translate(bot))
 
+
 async def teardown(bot: Bot) -> None:
     await bot.remove_cog("Translate")
 
-class Translate(CogBase):
+
+class Translate(Cog):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
         self.google_trans= GoogleTranslator()
@@ -49,7 +52,7 @@ class Translate(CogBase):
 
     @commands.Cog.listener("on_message")
     async def on_message(self, message: Message) -> None:
-        if message.author.bot or message.channel.id != CONFIG.CHANNEL_IDs.TRANSLATE:
+        if message.author.bot or message.channel.id != config.channels.text.translate:
             return
 
         text = message.content

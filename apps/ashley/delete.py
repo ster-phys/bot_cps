@@ -1,5 +1,5 @@
 """
-A library that provides Bot Launcher Managed by bot_cps
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -27,9 +27,9 @@ from discord import Message
 from discord.ext import commands
 from discord.ext.commands import Bot, Context
 
-from bot_cps.base import CogBase
+from ..cog import Cog
+from ..config import config
 
-from ..config import CONFIG
 
 logger = logging.getLogger(__name__)
 
@@ -37,18 +37,20 @@ logger = logging.getLogger(__name__)
 async def setup(bot: Bot) -> None:
     await bot.add_cog(DeleteMessage(bot))
 
+
 async def teardown(bot: Bot) -> None:
     await bot.remove_cog("DeleteMessage")
 
-class DeleteMessage(CogBase):
+
+class DeleteMessage(Cog):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
         self.channels = [
-            CONFIG.CHANNEL_IDs.TEXT.CHATTING,
-            CONFIG.CHANNEL_IDs.TEXT.TEAM_BLUE,
-            CONFIG.CHANNEL_IDs.TEXT.TEAM_RED,
-            CONFIG.CHANNEL_IDs.TEXT.TEAM_GREEN,
-            CONFIG.CHANNEL_IDs.TEXT.TEAM_ORANGE,
+            config.channels.text.chatting,
+            config.channels.text.team_blue,
+            config.channels.text.team_red,
+            config.channels.text.team_green,
+            config.channels.text.team_orange,
         ]
 
     @commands.Cog.listener("on_message")
@@ -67,7 +69,7 @@ class DeleteMessage(CogBase):
     @commands.hybrid_command()
     async def purge(self, ctx: Context):
         """Deletes all posts in the channel (for @Mod)."""
-        if CONFIG.ROLE_IDs.MOD not in list(map(lambda role: role.id, ctx.author.roles)):
+        if config.roles.mod not in list(map(lambda role: role.id, ctx.author.roles)):
             await ctx.send("You are not allowed to use this command.", ephemeral=True)
             return
 

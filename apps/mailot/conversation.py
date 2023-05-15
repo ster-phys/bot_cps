@@ -1,5 +1,5 @@
 """
-A library that provides Bot Launcher Managed by bot_cps
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -27,9 +27,9 @@ from discord import Embed, Message, TextChannel
 from discord.ext import commands
 from discord.ext.commands import Bot
 
-from bot_cps.base import CogBase
+from ..cog import Cog
+from ..config import config
 
-from ..config import CONFIG
 
 logger = logging.getLogger(__name__)
 
@@ -37,20 +37,22 @@ logger = logging.getLogger(__name__)
 async def setup(bot: Bot) -> None:
     await bot.add_cog(MessageLogging(bot))
 
+
 async def teardown(bot: Bot) -> None:
     await bot.remove_cog("MessageLogging")
 
-class MessageLogging(CogBase):
+
+class MessageLogging(Cog):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
 
     async def run_once_when_ready(self) -> None:
-        self.channel: TextChannel = await self.bot.fetch_channel(CONFIG.CHANNEL_IDs.CONVERSATION)
+        self.channel: TextChannel = await self.bot.fetch_channel(config.channels.text.conversation)
         return await super().run_once_when_ready()
 
     @commands.Cog.listener("on_message")
     async def on_message(self, message: Message) -> None:
-        if message.author.bot or message.channel.id == CONFIG.CHANNEL_IDs.CONVERSATION:
+        if message.author.bot or message.channel.id == config.channels.text.conversation:
             return
 
         date = (message.created_at + timedelta(hours=9)).strftime("%s")
