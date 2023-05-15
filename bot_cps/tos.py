@@ -1,5 +1,5 @@
 """
-A library that provides Bot Launcher Managed by bot_cps
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -25,15 +25,13 @@ import logging
 from datetime import datetime
 from re import split
 
-from discord import Locale
 from discord.ext import commands
 from discord.ext.commands import Bot, Context
 
-from bot_cps.base import CogBase
-from bot_cps.translator import _T
+from .base import Cog, send_tos
+from .path import path
+from .translator import locale_str as _
 
-from ..config import PATH
-from .base import send_tos
 
 logger = logging.getLogger(__name__)
 
@@ -41,37 +39,29 @@ logger = logging.getLogger(__name__)
 async def setup(bot: Bot) -> None:
     await bot.add_cog(Tos(bot))
 
+
 async def teardown(bot: Bot) -> None:
     await bot.remove_cog("Tos")
 
-class Tos(CogBase):
+
+class Tos(Cog):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
 
     @commands.hybrid_command(
-        description = _T({
-            Locale.american_english: "Checks the Terms of Service.",
-            Locale.british_english: "Checks the Terms of Service.",
-            Locale.japanese: "利用規約を確認する",
-            Locale.taiwan_chinese: "確認使用條款",
-        })
+        description = _("利用規約を確認する"),
     )
     async def tos(self, ctx: Context) -> None:
         await send_tos(ctx.interaction)
 
         epoch = self.agreed_epoch(ctx)
-        content = await _T({
-            Locale.american_english: f"You have agreed on <t:{epoch}>.",
-            Locale.british_english: f"You have agreed on <t:{epoch}>.",
-            Locale.japanese: f"<t:{epoch}>に同意しています",
-            Locale.taiwan_chinese: f"於<t:{epoch}>同意",
-        }).translate(ctx.interaction.locale)
-        await ctx.send(content=content, ephemeral=True)
+        content = _("<t:{0}>に同意しています").to(ctx.interaction.locale)
+        await ctx.send(content=content.format(epoch), ephemeral=True)
         return
 
     def agreed_epoch(self, ctx: Context) -> int:
         """Obtains epoch time to have agreed Terms of Service."""
-        with open(PATH.AGREED_JSON, "r") as f:
+        with open(path.agreed_json, "r") as f:
             agreed_list = json.load(f)
 
         for agreed in agreed_list:

@@ -1,5 +1,5 @@
 """
-A library that provides Cogs for Compass Bot
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -22,12 +22,12 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 import logging
 
-from discord import Locale
 from discord.ext import commands
 from discord.ext.commands import Bot, Context
 
-from .base import CogBase
-from .translator import _T
+from .base import Cog
+from .translator import locale_str as _
+
 
 logger = logging.getLogger(__name__)
 
@@ -35,22 +35,20 @@ logger = logging.getLogger(__name__)
 async def setup(bot: Bot) -> None:
     await bot.add_cog(Ping(bot))
 
+
 async def teardown(bot: Bot) -> None:
     await bot.remove_cog("Ping")
 
-class Ping(CogBase):
+
+class Ping(Cog):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
 
     @commands.hybrid_command(
-        description = _T({
-            Locale.american_english: "Pong!",
-            Locale.british_english: "Pong!",
-            Locale.japanese: "ping値を返す",
-            Locale.taiwan_chinese: "回傳ping",
-        })
+        description=_("ping値を返す"),
     )
     async def ping(self, ctx: Context) -> None:
+        await ctx.defer()
         latency = round(ctx.bot.latency * 1000)
         await ctx.send(f"Pong!! (`{latency}ms`)")
         return

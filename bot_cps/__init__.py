@@ -1,5 +1,5 @@
 """
-A library that provides Cogs for Compass Bot
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -20,14 +20,28 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 """
 
+__title__ = "bot_cps"
+__author__ = "ster"
+__license__ = "GPL-3.0"
+__copyright__ = "Copyright 2021-present ster"
+__version__ = "1.1.0a"
+
+
 __all__ = (
-    "EmojiNotFound",
+    "extensions",
 )
 
-from discord import DiscordException
 
-
-class EmojiNotFound(DiscordException):
-    """Raises when the required emojis for the bot are not found."""
-    def __init__(self, *args: object) -> None:
-        super().__init__(*args)
+extensions = (
+    f"{__title__}.card",
+    f"{__title__}.deck",
+    f"{__title__}.emoji",
+    f"{__title__}.gacha",
+    f"{__title__}.help",
+    f"{__title__}.listener",
+    f"{__title__}.ping",
+    f"{__title__}.roulette",
+    f"{__title__}.stage",
+    f"{__title__}.team",
+    f"{__title__}.tos",
+)

@@ -1,5 +1,5 @@
 """
-A library that provides Cogs for Compass Bot
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -20,29 +20,20 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 """
 
-# To use the Cog defined in this file, the environment variables
-# listed below must be set.
-#
-# - BOT_CPS_TOKEN
-#
-# See the <./config.py> file for the meaning of environment variables.
-
-
 import json
 import logging
-from os import remove
-from os.path import basename
+from io import BytesIO
 from random import choices, shuffle
 
-from discord import File, Locale, app_commands
+from compass import Attribute, CardData, Rarity
+from discord import File, app_commands
 from discord.ext import commands
 from discord.ext.commands import Bot, Context
 
-from compass import CardData
+from .base import Cog
+from .path import path
+from .translator import locale_str as _
 
-from .base import CogBase
-from .config import PATH
-from .translator import _T
 
 logger = logging.getLogger(__name__)
 
@@ -50,47 +41,35 @@ logger = logging.getLogger(__name__)
 async def setup(bot: Bot) -> None:
     await bot.add_cog(Gacha(bot))
 
+
 async def teardown(bot: Bot) -> None:
     await bot.remove_cog("Gacha")
 
 
 # prepares choices for name argument
-with open(PATH.GACHA_JSON, "r") as f:
-    GACHA_DATA = json.load(f)
+with open(path.gacha_json, "r") as f:
+    gacha_data = json.load(f)
 
-GACHA_LIST = [app_commands.Choice(name=data["name"], value=idx)
-              for idx, data in enumerate(GACHA_DATA)]
+gacha_list = [app_commands.Choice(name=_(data["name"]), value=idx)
+              for idx, data in enumerate(gacha_data)]
 
 
-class Gacha(CogBase):
+class Gacha(Cog):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
-
-    async def run_once_when_ready(self) -> None:
-        try:
-            self.data = CardData()
-        except:
-            self.logger.warning("The client cannot use this Cog.")
+        self.data = CardData()
 
     @commands.hybrid_command(
-        description = _T({
-            Locale.american_english: "Gacha Simulator.",
-            Locale.british_english: "Gacha Simulator.",
-            Locale.japanese: "ガチャシミュレーター",
-            Locale.taiwan_chinese: "抽卡模擬器",
-        })
+        description = _("ガチャシミュレーター"),
     )
     @app_commands.describe(
-        name = _T({
-            Locale.american_english: "Specifies the gacha name to simulate.",
-            Locale.british_english: "Specifies the gacha name to simulate.",
-            Locale.japanese: "シミュレートするガチャの名前を指定してね！",
-            Locale.taiwan_chinese: "請決定模擬的卡池！",
-        })
+        name = _("シミュレートするガチャの名前を指定してね！"),
     )
-    @app_commands.choices(name=GACHA_LIST)
+    @app_commands.choices(name=gacha_list)
     async def gacha(self, ctx: Context, name: int) -> None:
-        data = GACHA_DATA[name]
+        await ctx.defer()
+
+        data = gacha_data[name]
         cards = CardData([])
 
         rarities = choices([*data["weight"]], [*data["weight"].values()], k=data["k"])
@@ -100,16 +79,21 @@ class Gacha(CogBase):
             weights = []
             k = sum(el==rarity for el in rarities)
             for condition in data[rarity]:
-                tmp = self.data.get_cards(*condition["args"], **condition["kwargs"])
+                args = list(map(lambda el: Attribute(el), condition["attributes"])) \
+                     + list(map(lambda el: Rarity(el), condition["rarities"]))
+                tmp = self.data.get_cards(*args, **condition["kwargs"], themes=condition["themes"])
                 population.extend(tmp)
                 weights.extend([condition["weight"]]*len(tmp))
             cards.extend(choices(population, weights, k=k))
 
         shuffle(cards)
+        cards = CardData(sorted(cards, key=lambda card: card.rarity))
 
-        filepath = cards.generate_large_image()
-        filename = basename(filepath)
+        img = cards.generate_large_image()
 
-        await ctx.send(file=File(filepath, filename=filename))
+        image_bytes = BytesIO()
+        img.save(image_bytes, "PNG", quality=100, optimize=True)
+        image_bytes.seek(0)
 
-        remove(filepath)
+        await ctx.send(file=File(fp=image_bytes, filename=f"{ctx.author.id}.png"))
+        return

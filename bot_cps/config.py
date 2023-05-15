@@ -1,5 +1,5 @@
 """
-A library that provides Bot Launcher Managed by bot_cps
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -21,13 +21,18 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 """
 
 __all__ = (
-    "NotAgreed",
+    "config",
 )
 
-from discord import DiscordException
+
+class Config(object):
+
+    @property
+    def color(self) -> int:
+        """``bot_cps`` main color."""
+        return 0x5865F2
 
 
-class NotAgreed(DiscordException):
-    """Raises when the user does not agree to the Terms of Service."""
-    def __init__(self, *args: object) -> None:
-        super().__init__(*args)
+config = Config()
+
+del Config

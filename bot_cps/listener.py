@@ -1,5 +1,5 @@
 """
-A library that provides Cogs for Compass Bot
+A program that provides bot managed by bot_cps
 
 The GNU General Public License v3.0 (GPL-3.0)
 
@@ -26,7 +26,8 @@ import discord
 from discord.ext import commands, tasks
 from discord.ext.commands import Bot
 
-from .base import CogBase
+from .base import Cog
+
 
 logger = logging.getLogger(__name__)
 
@@ -34,10 +35,12 @@ logger = logging.getLogger(__name__)
 async def setup(bot: Bot) -> None:
     await bot.add_cog(Listener(bot))
 
+
 async def teardown(bot: Bot) -> None:
     await bot.remove_cog("Listener")
 
-class Listener(CogBase):
+
+class Listener(Cog):
     def __init__(self, bot: Bot) -> None:
         super().__init__(bot, logger)
         self.server: int = 0

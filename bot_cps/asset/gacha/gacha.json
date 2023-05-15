@@ -9,12 +9,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -23,11 +26,15 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "UR",
+                    "木"
+                ],
+                "rarities": [
+                    "UR"
+                ],
+                "themes": [
                     "猫宮ひなた"
                 ],
                 "kwargs": {
@@ -40,12 +47,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -54,11 +64,15 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "SR",
+                    "木"
+                ],
+                "rarities": [
+                    "SR"
+                ],
+                "themes": [
                     "猫宮ひなた"
                 ],
                 "kwargs": {
@@ -71,12 +85,15 @@
         ],
         "R": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "R"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -85,11 +102,15 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "R",
+                    "木"
+                ],
+                "rarities": [
+                    "R"
+                ],
+                "themes": [
                     "猫宮ひなた"
                 ],
                 "kwargs": {
@@ -111,12 +132,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -125,12 +149,16 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "UR",
-                    "この素晴らしい世界に祝福を!"
+                    "木"
+                ],
+                "rarities": [
+                    "UR"
+                ],
+                "themes": [
+                    "このすば"
                 ],
                 "kwargs": {
                     "season": false,
@@ -142,12 +170,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -156,12 +187,16 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "SR",
-                    "この素晴らしい世界に祝福を!"
+                    "木"
+                ],
+                "rarities": [
+                    "SR"
+                ],
+                "themes": [
+                    "このすば"
                 ],
                 "kwargs": {
                     "season": false,
@@ -173,12 +208,15 @@
         ],
         "R": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "R"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -187,12 +225,16 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "R",
-                    "この素晴らしい世界に祝福を!"
+                    "木"
+                ],
+                "rarities": [
+                    "R"
+                ],
+                "themes": [
+                    "このすば"
                 ],
                 "kwargs": {
                     "season": false,
@@ -213,12 +255,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -227,11 +272,15 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "UR",
+                    "木"
+                ],
+                "rarities": [
+                    "UR"
+                ],
+                "themes": [
                     "進撃の巨人"
                 ],
                 "kwargs": {
@@ -244,12 +293,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -258,11 +310,15 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "SR",
+                    "木"
+                ],
+                "rarities": [
+                    "SR"
+                ],
+                "themes": [
                     "進撃の巨人"
                 ],
                 "kwargs": {
@@ -275,12 +331,15 @@
         ],
         "R": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "R"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -289,11 +348,15 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "R",
+                    "木"
+                ],
+                "rarities": [
+                    "R"
+                ],
+                "themes": [
                     "進撃の巨人"
                 ],
                 "kwargs": {
@@ -315,12 +378,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -329,12 +395,16 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "UR",
-                    "STEINS;GATE"
+                    "木"
+                ],
+                "rarities": [
+                    "UR"
+                ],
+                "themes": [
+                    "シュタゲ"
                 ],
                 "kwargs": {
                     "season": false,
@@ -346,12 +416,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -360,12 +433,16 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "SR",
-                    "STEINS;GATE"
+                    "木"
+                ],
+                "rarities": [
+                    "SR"
+                ],
+                "themes": [
+                    "シュタゲ"
                 ],
                 "kwargs": {
                     "season": false,
@@ -377,12 +454,15 @@
         ],
         "R": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "R"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -391,12 +471,16 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "R",
-                    "STEINS;GATE"
+                    "木"
+                ],
+                "rarities": [
+                    "R"
+                ],
+                "themes": [
+                    "シュタゲ"
                 ],
                 "kwargs": {
                     "season": false,
@@ -417,12 +501,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -431,11 +518,15 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "UR",
+                    "木"
+                ],
+                "rarities": [
+                    "UR"
+                ],
+                "themes": [
                     "オーバーロード"
                 ],
                 "kwargs": {
@@ -448,12 +539,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -462,11 +556,15 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "SR",
+                    "木"
+                ],
+                "rarities": [
+                    "SR"
+                ],
+                "themes": [
                     "オーバーロード"
                 ],
                 "kwargs": {
@@ -479,12 +577,15 @@
         ],
         "R": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "R"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -493,11 +594,15 @@
                 "weight": 1
             },
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
-                    "R",
+                    "木"
+                ],
+                "rarities": [
+                    "R"
+                ],
+                "themes": [
                     "オーバーロード"
                 ],
                 "kwargs": {
@@ -519,12 +624,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -535,12 +643,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -551,12 +662,15 @@
         ],
         "R": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "R"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -576,12 +690,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -592,12 +709,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -608,12 +728,15 @@
         ],
         "R": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "R"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -631,10 +754,13 @@
         },
         "UR": [
             {
-                "args": [
-                    "火",
+                "attributes": [
+                    "火"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -652,10 +778,13 @@
         },
         "UR": [
             {
-                "args": [
-                    "水",
+                "attributes": [
+                    "水"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -673,10 +802,13 @@
         },
         "UR": [
             {
-                "args": [
-                    "木",
+                "attributes": [
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -697,12 +829,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -713,12 +848,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -729,12 +867,15 @@
         ],
         "R": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "R"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -745,12 +886,15 @@
         ],
         "N": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "N"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -771,12 +915,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -787,12 +934,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -803,12 +953,15 @@
         ],
         "R": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "R"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -819,12 +972,15 @@
         ],
         "N": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "N"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -843,12 +999,15 @@
         },
         "UR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "UR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
@@ -859,12 +1018,15 @@
         ],
         "SR": [
             {
-                "args": [
+                "attributes": [
                     "水",
                     "火",
-                    "木",
+                    "木"
+                ],
+                "rarities": [
                     "SR"
                 ],
+                "themes": null,
                 "kwargs": {
                     "season": false,
                     "normal": true,
