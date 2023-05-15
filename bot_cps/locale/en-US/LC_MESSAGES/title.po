@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-15 16:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pot-data.yml\n"
+
+
+#: card
+msgid "カードのステータス"
+msgstr "Searches for card status."
+
+
+#: deck
+msgid "デッキ生成"
+msgstr "Generates deck."
+
+
+#: deck-setting
+msgid "deck コマンドのパラメータ設定"
+msgstr "Sets parameters for deck cmd."
+
+
+#: emoji
+msgid "ヒーローアイコンの絵文字を追加"
+msgstr "Adds hero icons as emojis."
+
+
+#: gacha
+msgid "ガチャシミュレーター"
+msgstr "Gacha simulator."
+
+
+#: help
+msgid "ヘルプ"
+msgstr "Displays this help."
+
+
+#: ping
+msgid "応答速度を調べる"
+msgstr "Tests the response time."
+
+
+#: roulette
+msgid "ヒーロールーレット"
+msgstr "Hero roulette."
+
+
+#: roulette-setting
+msgid "roulette コマンドのパラメータ設定"
+msgstr "Sets parameters for roulette cmd."
+
+
+#: stage
+msgid "ステージガチャ"
+msgstr "Stage gacha."
+
+
+#: team
+msgid "チーム分け"
+msgstr "Team division."
+
+
+#: tos
+msgid "利用規約"
+msgstr "Terms of Service"
+
+
