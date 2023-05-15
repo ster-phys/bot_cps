@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-15 12:06+0000\n"
+"POT-Creation-Date: 2023-05-15 15:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,7 +113,7 @@ msgstr ""
 #: stage
 msgid "コンパス内のステージをランダムに１つ選択するコマンド．
 `number` 引数で，１チームあたりの人数を選択することができる．
-デフォルトでは `3` が選択されている．"
+デフォルトでは `3` が選択されている．"
 msgstr ""
 
 
@@ -132,7 +132,7 @@ msgid "チーム分けを行うコマンド．
 `[divide]`：チーム分けを行うとき
 `[+]`：１チームあたりの人数を増やすとき
 　
-他の人をチーム分けに参加させたい場合は，Discord画面の右，メンバーリストから参加させたいメンバーを(右)クリックし，表示されるメニューの `[アプリ] > [/team join]` からも参加させることができる．"
+他の人をチーム分けに参加させたい場合は，Discord画面の右，メンバーリストから参加させたいメンバーを(右)クリックし，表示されるメニューの `[アプリ] > [/team join]` からも参加させることができる．"
 msgstr ""
 
 
