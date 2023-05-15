@@ -53,6 +53,7 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add bot_cps/locale/bot_cps.pot
+          git add bot_cps/locale/title.pot
+          git add bot_cps/locale/detail.pot
           git commit -m "[actions] Update pot files"
           git push
