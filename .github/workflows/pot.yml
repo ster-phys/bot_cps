@@ -22,7 +22,10 @@ jobs:
 
       - name: Run generating pot scripts
         run: |
-          python i18n/pygettext.py -d bot_cps -p bot_cps/locale $(ls -d bot_cps/*.py)
+          for path in $(ls ./bot_cps/*.py); do
+            filename=${path##*/}
+            python i18n/pygettext.py -d ${filename%.*} -p bot_cps/locale $path
+          done
 
       - name: Push to master
         run: |

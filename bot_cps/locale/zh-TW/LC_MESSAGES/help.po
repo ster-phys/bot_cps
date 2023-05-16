@@ -1,0 +1,28 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-17 02:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: ./bot_cps/help.py:59
+msgid "コマンドについて調べる"
+msgstr "查詢bot的指令"
+
+#: ./bot_cps/help.py:62
+msgid "コマンドの名前（指定しない場合，コマンド一覧が表示される）"
+msgstr "指令名稱（沒有指定的狀況將會顯示指令一覽）"
+
+#: ./bot_cps/help.py:69
+msgid "コマンド一覧"
+msgstr "指令一覽"

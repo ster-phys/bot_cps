@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-17 02:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: ./bot_cps/deck.py:60
+msgid "ランダムなデッキを生成する"
+msgstr "隨機生成卡組"
+
+#: ./bot_cps/deck.py:70
+msgid "デッキの設定"
+msgstr "更改卡組設定"
+
+#: ./bot_cps/deck.py:173
+msgid "その条件ではデッキを生成できません"
+msgstr "無法用該條件生成卡組"
+
+#: ./bot_cps/deck.py:186
+msgid "デッキ総合力（Lv.200）"
+msgstr "卡組綜合力（Lv.200）"
+
+#: ./bot_cps/deck.py:190
+msgid "データ提供：やぎシミュ"
+msgstr "資料提供：ヤギシミュ（山羊模擬器）"
+
+#: ./bot_cps/deck.py:227
+msgid "初期化"
+msgstr "初始化"
+
+#: ./bot_cps/deck.py:243
+msgid "実行"
+msgstr "執行"
+
+#: ./bot_cps/deck.py:258
+msgid "恒常"
+msgstr "常駐"
+
+#: ./bot_cps/deck.py:259
+msgid "コラボ"
+msgstr "合作"
+
+#: ./bot_cps/deck.py:260
+msgid "シーズン"
+msgstr "賽季卡"
+
+#: ./bot_cps/deck.py:261
+msgid "火"
+msgstr "火"
+
+#: ./bot_cps/deck.py:262
+msgid "水"
+msgstr "水"
+
+#: ./bot_cps/deck.py:263
+msgid "木"
+msgstr "木"
+
+#: ./bot_cps/deck.py:268
+msgid "バランス"
+msgstr "均衡"
+
+#: ./bot_cps/deck.py:269
+msgid "ランダム"
+msgstr "隨機"

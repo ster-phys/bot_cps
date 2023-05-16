@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-17 02:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: ./bot_cps/team.py:71
+msgid "チーム分けを行う"
+msgstr "チーム分けを行う"
+
+#: ./bot_cps/team.py:83
+msgid "以前に使用したデータがあります．初期化しますか？"
+msgstr "以前に使用したデータがあります．初期化しますか？"
+
+#: ./bot_cps/team.py:112 ./bot_cps/team.py:143
+msgid "先に `/team` コマンドを使用してね！"
+msgstr "先に `/team` コマンドを使用してね！"
+
+#: ./bot_cps/team.py:120
+msgid "{0} を追加したよ！"
+msgstr "{0} を追加したよ！"
+
+#: ./bot_cps/team.py:124
+msgid "{0} は既に追加されてるよ！"
+msgstr "{0} は既に追加されてるよ！"
+
+#: ./bot_cps/team.py:151
+msgid "{0} を辞退させたよ！"
+msgstr "{0} を辞退させたよ！"
+
+#: ./bot_cps/team.py:155
+msgid "{0} は既に辞退しているよ！"
+msgstr "{0} は既に辞退しているよ！"
+
+#: ./bot_cps/team.py:173
+msgid "参加"
+msgstr "参加"
+
+#: ./bot_cps/team.py:190
+msgid "辞退"
+msgstr "辞退"
+
+#: ./bot_cps/team.py:207
+msgid "同期"
+msgstr "同期"
+
+#: ./bot_cps/team.py:224
+msgid "実行"
+msgstr "実行"
+
+#: ./bot_cps/team.py:233
+msgid "{0}人ずつのチームに分けるには{1}人以上必要だよ！"
+msgstr "{0}人ずつのチームに分けるには{1}人以上必要だよ！"
+
+#: ./bot_cps/team.py:304
+msgid "チーム分け参加者リスト（計 {0} 人）"
+msgstr "チーム分け参加者リスト（計 {0} 人）"
+
+#: ./bot_cps/team.py:305
+msgid "１チームあたりの人数：{0}"
+msgstr "１チームあたりの人数：{0}"
+
+#: ./bot_cps/team.py:354
+msgid "はい"
+msgstr "はい"
+
+#: ./bot_cps/team.py:371
+msgid "いいえ"
+msgstr "いいえ"

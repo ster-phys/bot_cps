@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-17 02:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: ./bot_cps/deck.py:60
+msgid "ランダムなデッキを生成する"
+msgstr ""
+
+#: ./bot_cps/deck.py:70
+msgid "デッキの設定"
+msgstr ""
+
+#: ./bot_cps/deck.py:173
+msgid "その条件ではデッキを生成できません"
+msgstr ""
+
+#: ./bot_cps/deck.py:186
+msgid "デッキ総合力（Lv.200）"
+msgstr ""
+
+#: ./bot_cps/deck.py:190
+msgid "データ提供：やぎシミュ"
+msgstr ""
+
+#: ./bot_cps/deck.py:227
+msgid "初期化"
+msgstr ""
+
+#: ./bot_cps/deck.py:243
+msgid "実行"
+msgstr ""
+
+#: ./bot_cps/deck.py:258
+msgid "恒常"
+msgstr ""
+
+#: ./bot_cps/deck.py:259
+msgid "コラボ"
+msgstr ""
+
+#: ./bot_cps/deck.py:260
+msgid "シーズン"
+msgstr ""
+
+#: ./bot_cps/deck.py:261
+msgid "火"
+msgstr ""
+
+#: ./bot_cps/deck.py:262
+msgid "水"
+msgstr ""
+
+#: ./bot_cps/deck.py:263
+msgid "木"
+msgstr ""
+
+#: ./bot_cps/deck.py:268
+msgid "バランス"
+msgstr ""
+
+#: ./bot_cps/deck.py:269
+msgid "ランダム"
+msgstr ""
+

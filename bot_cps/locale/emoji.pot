@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-05-17 02:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: ./bot_cps/emoji.py:59
+msgid "コンパスのアイコンを絵文字として追加する"
+msgstr ""
+
+#: ./bot_cps/emoji.py:65 ./bot_cps/emoji.py:86
+msgid "追加できる絵文字はないよ！"
+msgstr ""
+
+#: ./bot_cps/emoji.py:70
+msgid "鯖主のみ使用できます！"
+msgstr ""
+
+#: ./bot_cps/emoji.py:120
+msgid "{0} の実行した /emoji コマンドにより追加"
+msgstr ""
+
