@@ -1,4 +1,4 @@
-輸入#Compass的卡片名稱(可使用簡稱)，顯示該卡片詳細資料的指令．
+輸入#compass的卡片名稱(可使用簡稱)，顯示該卡片詳細資料的指令．
 數據來源：山羊模擬器[やぎシミュ](http://yagitools.html.xdomain.jp/compas-deck/)．
 
 `cards` 參數中，需要使用空格分隔不同卡片．

@@ -1,4 +1,4 @@
-A command that outputs the details of cards by entering their names (or abbreviations) in #Compass.
+A command that outputs the details of cards by entering their names (or abbreviations) in #compass.
 The data is provided by [Yagi Simu](http://yagitools.html.xdomain.jp/compas-deck/).
 
 The `cards` argument must be the names of the cards, separated by spaces.
