@@ -28,6 +28,9 @@ __all__ = (
 import os
 from os.path import abspath, dirname, exists
 
+from discord import Locale
+
+
 _ROOTPATH = dirname(abspath(__file__))
 
 _ASSET_DIR = f"{_ROOTPATH}/asset"
@@ -70,6 +73,20 @@ class Path(object):
     def white_team(self) -> str:
         """Image of the white team portal."""
         return f"{_ASSET_TEAM}/white.png"
+
+    def docs_detail(self, cmd: str, locale: Locale) -> str:
+        """Obtains path to command detail docs."""
+        if exists(f"{_DOCS_DIR}/{locale.value}/detail/{cmd}"):
+            return f"{_DOCS_DIR}/{locale.value}/detail/{cmd}"
+        else:
+            return f"{_DOCS_DIR}/{Locale.japanese.value}/detail/{cmd}"
+
+    def docs_title(self, cmd: str, locale: Locale) -> str:
+        """Obtains path to command title docs."""
+        if exists(f"{_DOCS_DIR}/{locale.value}/title/{cmd}"):
+            return f"{_DOCS_DIR}/{locale.value}/title/{cmd}"
+        else:
+            return f"{_DOCS_DIR}/{Locale.japanese.value}/title/{cmd}"
 
     @property
     def detail_dir(self) -> str:

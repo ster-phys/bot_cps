@@ -69,18 +69,14 @@ class Help(Cog):
             title = _("コマンド一覧").to(ctx.interaction.locale)
             description = ""
             for cmd in cmd_list:
-                with open(f"{path.title_dir}/{cmd}", "r") as f:
-                    content = _(f.read()).to(ctx.interaction.locale)
-                description += f"`/{cmd}`：{content}"
+                with open(path.docs_title(cmd, ctx.interaction.locale), "r") as f:
+                    description += f"`/{cmd}`：{f.read()}"
 
             embed = Embed(title=title, description=description, color=config.color)
 
         else: # shows command detail
-            with open(f"{path.detail_dir}/{command}", "r") as f:
-                lines = f.readlines()
-                description = ""
-                for line in lines:
-                    description += _(line.rstrip("\n")).to(ctx.interaction.locale) + "\n"
+            with open(path.docs_detail(command, ctx.interaction.locale), "r") as f:
+                description = f.read()
 
             embed = Embed(title=f"/{command}", description=description, color=config.color)
 
