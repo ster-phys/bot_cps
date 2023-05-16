@@ -1,0 +1,3 @@
+The command to select one of the stages in #compass at random.
+The number of players per team can be selected with the `number` argument.
+By default, `3` is selected.
