@@ -57,7 +57,7 @@ msgstr "Sync"
 
 #: ./bot_cps/team.py:224
 msgid "実行"
-msgstr "Execute"
+msgstr "Exec"
 
 #: ./bot_cps/team.py:233
 msgid "{0}人ずつのチームに分けるには{1}人以上必要だよ！"
