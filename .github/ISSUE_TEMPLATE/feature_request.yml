@@ -15,8 +15,8 @@ body:
       multiple: false
       label: What is the feature request for?
       options:
-        - bot_cps command
-        - compass library
+        - already existing command
+        - new command
         - others (e.g. ashley or mailot)
     validations:
       required: true
