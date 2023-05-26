@@ -24,7 +24,7 @@ __title__ = "bot_cps"
 __author__ = "ster"
 __license__ = "GPL-3.0"
 __copyright__ = "Copyright 2021-present ster"
-__version__ = "1.1.0"
+__version__ = "1.2.0a"
 
 
 __all__ = (
