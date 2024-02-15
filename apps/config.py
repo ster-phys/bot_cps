@@ -159,7 +159,7 @@ class Config(object):
             @property
             def team_red(self) -> int:
                 """ID of the voice channel to play game."""
-                return 1043569142155968542
+                return 1207000374200893510
 
             @property
             def team_green(self) -> int:
